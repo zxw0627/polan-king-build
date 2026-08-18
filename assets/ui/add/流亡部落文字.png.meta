@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5c8cae76-618c-41b5-865e-d183fad98822",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 159,
+  "height": 44,
+  "platformSettings": {},
+  "subMetas": {
+    "流亡部落文字": {
+      "ver": "1.0.6",
+      "uuid": "079d2afa-2b7f-4e2c-a898-7bfc6be05047",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5c8cae76-618c-41b5-865e-d183fad98822",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 159,
+      "height": 44,
+      "rawWidth": 159,
+      "rawHeight": 44,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

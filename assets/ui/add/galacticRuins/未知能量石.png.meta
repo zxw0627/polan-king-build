@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "0a50648a-b92c-4a85-b056-02aba58729e0",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 96,
+  "height": 96,
+  "platformSettings": {},
+  "subMetas": {
+    "未知能量石": {
+      "ver": "1.0.6",
+      "uuid": "53e54734-5350-4171-b22a-367a781932e6",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0a50648a-b92c-4a85-b056-02aba58729e0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 96,
+      "height": 96,
+      "rawWidth": 96,
+      "rawHeight": 96,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

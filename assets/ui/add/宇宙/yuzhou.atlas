@@ -1,0 +1,20 @@
+
+yuzhou.png
+size: 176,176
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+001
+  rotate: false
+  xy: 2, 2
+  size: 144, 44
+  orig: 144, 44
+  offset: 0, 0
+  index: -1
+004
+  rotate: false
+  xy: 2, 48
+  size: 160, 126
+  orig: 160, 126
+  offset: 0, 0
+  index: -1

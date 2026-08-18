@@ -1,0 +1,20 @@
+
+fj.png
+size: 144,140
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+001
+  rotate: false
+  xy: 2, 41
+  size: 109, 97
+  orig: 109, 97
+  offset: 0, 0
+  index: -1
+002
+  rotate: false
+  xy: 2, 2
+  size: 140, 37
+  orig: 140, 37
+  offset: 0, 0
+  index: -1

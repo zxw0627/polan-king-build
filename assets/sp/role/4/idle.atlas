@@ -1,0 +1,13 @@
+
+idle.png
+size: 679,679
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+das
+  rotate: false
+  xy: 2, 2
+  size: 239, 675
+  orig: 247, 677
+  offset: 7, 1
+  index: -1

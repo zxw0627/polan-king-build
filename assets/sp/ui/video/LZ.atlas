@@ -1,0 +1,20 @@
+
+LZ.png
+size: 173,122
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+001
+  rotate: true
+  xy: 2, 2
+  size: 118, 128
+  orig: 118, 128
+  offset: 0, 0
+  index: -1
+002
+  rotate: false
+  xy: 132, 76
+  size: 39, 44
+  orig: 39, 45
+  offset: 0, 0
+  index: -1

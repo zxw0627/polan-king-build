@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "e45a295e-e057-49bd-a75a-c2b370bdc999",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 96,
+  "height": 96,
+  "platformSettings": {},
+  "subMetas": {
+    "文明交流区域": {
+      "ver": "1.0.6",
+      "uuid": "1e39e791-f0f0-43a1-ab76-97361f979c2e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "e45a295e-e057-49bd-a75a-c2b370bdc999",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 96,
+      "height": 96,
+      "rawWidth": 96,
+      "rawHeight": 96,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

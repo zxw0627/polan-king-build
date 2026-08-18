@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "2b3c271e-4102-4969-b220-e2c9577dd9e2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 270,
+  "height": 233,
+  "platformSettings": {},
+  "subMetas": {
+    "星际城市": {
+      "ver": "1.0.6",
+      "uuid": "95cc6028-e680-4a70-8ce6-b26f5e36bad1",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2b3c271e-4102-4969-b220-e2c9577dd9e2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 270,
+      "height": 233,
+      "rawWidth": 270,
+      "rawHeight": 233,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "35f3c912-0bde-4a8d-bc51-6f3adac33d92",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 96,
+  "height": 96,
+  "platformSettings": {},
+  "subMetas": {
+    "多元宇宙文明": {
+      "ver": "1.0.6",
+      "uuid": "6deb1a2b-ca67-4384-87f5-025c574e40d2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "35f3c912-0bde-4a8d-bc51-6f3adac33d92",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 96,
+      "height": 96,
+      "rawWidth": 96,
+      "rawHeight": 96,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

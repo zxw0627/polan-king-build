@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "92c38e11-458d-4f20-9f11-77d97ca048d1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 96,
+  "height": 96,
+  "platformSettings": {},
+  "subMetas": {
+    "激光科技": {
+      "ver": "1.0.6",
+      "uuid": "86267c04-2b81-49b7-bbe8-1c5376962f4e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "92c38e11-458d-4f20-9f11-77d97ca048d1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 96,
+      "height": 96,
+      "rawWidth": 96,
+      "rawHeight": 96,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
