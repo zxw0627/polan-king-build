@@ -1,4 +1,4 @@
-name: Build Web Mobile (Cocos Creator 2.4.10)
+name: Build Web Mobile (Cocos Creator 2.4.15)
 
 on:
   push:
@@ -13,12 +13,12 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Download Cocos Creator 2.4.10 (643MB)
+      - name: Download Cocos Creator 2.4.15
         shell: pwsh
         run: |
           Write-Host "Downloading Cocos Creator 2.4.10..."
           [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-          Invoke-WebRequest -Uri "https://download.cocos.com/CocosCreator/v2.4.10/CocosCreator-v2.4.10-20220816-win.zip" -OutFile "$env:RUNNER_TEMP\cocos.zip" -UseBasicParsing
+          Invoke-WebRequest -Uri "https://download.cocos.com/CocosCreator/v2.4.15/CocosCreator_v2.4.15_20250328_win.zip" -OutFile "$env:RUNNER_TEMP\cocos.zip" -UseBasicParsing
           Write-Host "Downloaded. Extracting..."
           Expand-Archive "$env:RUNNER_TEMP\cocos.zip" -DestinationPath "$env:RUNNER_TEMP\cocos" -Force
           Get-ChildItem "$env:RUNNER_TEMP\cocos" -Recurse -Filter "*.exe" | Select-Object FullName, Length
@@ -34,7 +34,13 @@ jobs:
           Write-Host "Project path: $env:GITHUB_WORKSPACE"
           # Creator 2.x 命令行构建
           # --nologin 跳过Cocos账号登录(无头环境必需)
+          # 设置用户目录避免权限问题
+          $env:USERPROFILE = "C:\Users\runneradmin"
+          $env:APPDATA = "C:\Users\runneradmin\AppData\Roaming"
+          # 预创建 .CocosCreator 配置目录(避免首次启动卡初始化)
+          New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.CocosCreator" | Out-Null
           & $creator.FullName --nologin --project $env:GITHUB_WORKSPACE --build "platform=web-mobile" 2>&1 | Out-Host
+          Write-Host "Creator process finished with exit code: $LASTEXITCODE"
           $exitCode = $LASTEXITCODE
           Write-Host "Creator exit code: $exitCode"
           # 以产物存在与否判断成功
