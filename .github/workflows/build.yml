@@ -33,7 +33,8 @@ jobs:
           Write-Host "Creator path: $($creator.FullName)"
           Write-Host "Project path: $env:GITHUB_WORKSPACE"
           # Creator 2.x 命令行构建
-          & $creator.FullName --project $env:GITHUB_WORKSPACE --build "platform=web-mobile" 2>&1 | Out-Host
+          # --nologin 跳过Cocos账号登录(无头环境必需)
+          & $creator.FullName --nologin --project $env:GITHUB_WORKSPACE --build "platform=web-mobile" 2>&1 | Out-Host
           $exitCode = $LASTEXITCODE
           Write-Host "Creator exit code: $exitCode"
           # 以产物存在与否判断成功
